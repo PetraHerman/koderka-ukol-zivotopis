@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body,
 a {
     color: rgb(6, 46, 6);
@@ -48,25 +52,19 @@ header {
 }
 
 .praxe {
-    background-color: #ffffff;
     margin-top: 150px;
 }
 
-.znalosti {
-    background-color: #f2f2f2;
-}
-
-.vzdelani {
+.znalosti,
+.certifikaty {
     background-color: #e5e5e5;
 }
 
-.certifikaty {
-    background-color: #d8d8d8;
-}
-
+.praxe,
+.vzdelani,
 .konicky {
-    background-color: #cccccc;
-}
+    background-color: #f2f2f2;
+    }
 
 footer {
     color: rgb(241, 241, 237);
@@ -86,17 +84,21 @@ footer a {
 .vzdelani,
 .certifikaty,
 .konicky {
+    max-width: 1800px;
     padding: 50px 15%;
+    margin: 0 auto;
 }
 
 table {
     border-spacing: 0;
+    margin: 0 50px;
 }
 
 th,
 td {
     text-align: left;
     border-bottom: 1px solid rgb(6, 46, 6);
+    padding: 5px 0;
 }
 
 .uroven {
