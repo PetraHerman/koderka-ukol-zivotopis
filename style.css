@@ -47,8 +47,39 @@ header {
     line-height: 0;
     font-family: 'Parisienne', cursive;
     text-align: center;
-    padding-top: 120px;
-    padding-bottom: 70px;   
+    padding-top: 150px;
+    padding-bottom: 100px;   
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(37, 37, 37) 
+}
+
+.menu li {
+    display: inline-block; 
+}
+
+.menu a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(241, 241, 237);
+    text-decoration: none;
+    padding: 15px;
+    opacity: 0.5;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    opacity: 1;
+}
+
+.menu ul {
+    margin: 0;
 }
 
 .praxe {
@@ -69,6 +100,7 @@ header {
 footer {
     color: rgb(241, 241, 237);
     background-color: rgb(5, 48, 5);
+    line-height: 2;
     text-align: center;
     padding: 20px 0;
     margin-top: 0;
@@ -77,6 +109,12 @@ footer {
 footer a {
     color: rgb(241, 241, 237);
     padding: 20px 10;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+    font-size: 23px;
 }
 
 .praxe,
@@ -134,3 +172,4 @@ td {
     border-radius: 20px;
     border: 10px solid rgb(241, 241, 237);
 }
+
