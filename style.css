@@ -1,127 +1,125 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body,
 a {
-    color: rgb(6, 46, 6);
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    
+  color: rgb(6, 46, 6);
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 h1 {
-    color: rgb(241, 241, 237);  
-    font-size: 90px;
-    font-family: 'Parisienne', cursive;
-    text-align: center; 
-    margin-top: 0;
+  color: rgb(241, 241, 237);
+  font-size: 90px;
+  font-family: "Parisienne", cursive;
+  text-align: center;
+  margin-top: 0;
 }
 
 h2 {
-    color: rgb(6, 46, 6);
-    font-size: 36px;
-    text-decoration: underline;
+  color: rgb(6, 46, 6);
+  font-size: 36px;
+  text-decoration: underline;
 }
 
 h4 {
-    color: rgb(6, 46, 6);
-    font-size: 24px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+  color: rgb(6, 46, 6);
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 h5 {
-    color: rgb(6, 46, 6);
-    font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 10px;
+  color: rgb(6, 46, 6);
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 header {
-    background-color: rgb(85, 19, 11);
-    color: rgb(241, 241, 237);  
-    font-size: 36px;
-    line-height: 0;
-    font-family: 'Parisienne', cursive;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 100px;   
+  background-color: rgb(85, 19, 11);
+  color: rgb(241, 241, 237);
+  font-size: 36px;
+  line-height: 0;
+  font-family: "Parisienne", cursive;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 .menu {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: rgb(37, 37, 37) 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(37, 37, 37);
 }
 
 .menu li {
-    display: inline-block; 
+  display: inline-block;
 }
 
 .menu a {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(241, 241, 237);
-    text-decoration: none;
-    padding: 15px;
-    opacity: 0.5;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(241, 241, 237);
+  text-decoration: none;
+  padding: 15px;
+  opacity: 0.5;
 }
 
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
-    opacity: 1;
+  opacity: 1;
 }
 
 .menu ul {
-    margin: 0;
+  margin: 0;
 }
 
 .praxe {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .znalosti,
 .certifikaty {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .praxe,
 .vzdelani,
 .konicky {
-    background-color: #f2f2f2;
-    }
+  background-color: #f2f2f2;
+}
 
 footer {
-    color: rgb(241, 241, 237);
-    background-color: rgb(5, 48, 5);
-    line-height: 2;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 0;
-    
+  color: rgb(241, 241, 237);
+  background-color: rgb(5, 48, 5);
+  line-height: 2;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 0;
 }
 
 footer a {
-    color: rgb(241, 241, 237);
-    font-size: 20px;
-    padding: 25px;
+  color: rgb(241, 241, 237);
+  font-size: 20px;
+  padding: 25px;
 }
 
 footer a:hover,
 footer a:focus,
 footer a:active {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 footer img {
-    width: 17px;
-    margin-right: 5px;
+  width: 17px;
+  margin-right: 5px;
 }
 
 .praxe,
@@ -129,65 +127,64 @@ footer img {
 .vzdelani,
 .certifikaty,
 .konicky {
-    max-width: 1800px;
-    padding: 50px 15%;
-    margin: 0 auto;
+  max-width: 1800px;
+  padding: 50px 15%;
+  margin: 0 auto;
 }
 
 table {
-    border-spacing: 0;
-    margin: 0 50px;
+  border-spacing: 0;
+  margin: 0 50px;
 }
 
 th,
 td {
-    text-align: left;
-    border-bottom: 1px solid rgb(6, 46, 6);
-    padding: 5px 0;
+  text-align: left;
+  border-bottom: 1px solid rgb(6, 46, 6);
+  padding: 5px 0;
 }
 
 .uroven {
-    text-align: right;
-    padding-left: 30px;
+  text-align: right;
+  padding-left: 30px;
 }
 
 .foto-ja {
-    width: 250px;
-    border: 10px solid rgb(241, 241, 237);
-    border-radius: 50%;
-    float: left;
-    margin-top: 50px;
-    margin-left: 8%; 
+  width: 250px;
+  border: 10px solid rgb(241, 241, 237);
+  border-radius: 50%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 8%;
 }
 
 .foto-bestboss {
-    width: 400px;
-    float: right;
-    border-radius: 20px;
-    border: 10px solid rgb(241, 241, 237);
-    margin-top: 20px
+  width: 400px;
+  float: right;
+  border-radius: 20px;
+  border: 10px solid rgb(241, 241, 237);
+  margin-top: 20px;
 }
 
 .foto-under {
-    width: 400px;
-    float: right;
-    border-radius: 20px;
-    border: 10px solid rgb(241, 241, 237);
-    margin-top: 50px
+  width: 400px;
+  float: right;
+  border-radius: 20px;
+  border: 10px solid rgb(241, 241, 237);
+  margin-top: 50px;
 }
 
 .jen {
-    width: 400px;
-    float: right;
-    border-radius: 20px;
-    border: 10px solid rgb(241, 241, 237);
-    margin-top: 20px;
+  width: 400px;
+  float: right;
+  border-radius: 20px;
+  border: 10px solid rgb(241, 241, 237);
+  margin-top: 20px;
 }
 
 .foto-hireme {
-    width: 70%;
-    border-radius: 20px;
-    border: 10px solid rgb(241, 241, 237);
-    margin-left: 15%;
+  width: 70%;
+  border-radius: 20px;
+  border: 10px solid rgb(241, 241, 237);
+  margin-left: 15%;
 }
-
